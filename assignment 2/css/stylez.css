@@ -1,0 +1,21 @@
+img.a{
+    object-fit: cover;
+    border-radius:50%;
+    width:150px;
+    height:150px;
+}
+
+img.b{
+    object-fit:cover;
+    width:800px;
+    height:600px;
+}
+
+.tab-content{
+    display: none;
+}
+
+.tab-content:target{
+    display: block;
+}
+

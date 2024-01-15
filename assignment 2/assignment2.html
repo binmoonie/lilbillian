@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap Site</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/css/stylez.css">
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div>    
+            <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="/images/P4120017.JPG" class="a"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+                        aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarID">
+                        <div class="navbar-nav">
+                            <h1 class="b; display-2">Ben Muniz</h1>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div>
+                <table>
+                    <tr>
+                        <td style="width: 800px">
+
+                            <div id="carouselExampleControls" class="carousel slide" style="width:100%; margin-left: 25px; margin-top:30px;" data-ride="carousel">
+                                <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100; b" src="/images/P4120031.JPG" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100; b" src="/images/P6230004.JPG" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100; b" src="/images/P6240005.JPG" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100; b" src="/images/PA130178.JPG" alt="Third slide">
+                                </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </td>
+                        <td>
+                            <div style="margin: 30px; height: 500px;">
+                                <h1 class="display-2" style="margin-left: 10%;">Background Information</h1>
+                                <p style="font-size: x-large; padding: 10%;">
+                                    Ben Muniz is a 21 year old entrepeneur, professional music maker, and philanthropist.
+                                    He resides at 23 Elizabeth St Waterbury, CT 06704 and his phone number is 203-598-6796.
+                                    Please contact him by email: slacconewsms@gmail.com.
+                                    <a href="sms:2035287096">text me!!</a>
+                                    <a href="tel:2035287096">Call Me!!</a>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#tab1" onClick="toggleTabClass(tab1)">Educational Background</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#tab2" onClick="toggleTabClass('tab2')">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#tab3" onClick="toggleTabClass('tab3')">Hobbies</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#tab4" onClick="toggleTabClass('tab4')">Work Experience</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div id="tab1" class="tab-content">
+                                <ul style="display: box;">
+                                    <li>Waterbury Career Academy High School
+                                        <ul>
+                                            <li>
+                                                Arduino Programming
+                                            </li>
+                                            <li>
+                                                Networking Fundamentals
+                                            </li>
+                                            <li>
+                                                CompTIA IT Fundamentals
+                                            </li>
+                                            <li>
+                                                School Band
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>Southern Connecticut State University
+                                        <ul>
+                                            <li>
+                                                Major
+                                                <ul>
+                                                    Computer Science General
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                Minor
+                                                <ul>
+                                                    Music in Technology & Math
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>        
+                                  </ul>
+                            </div>
+                            <div id="tab2" class="tab-content">
+                                <ul> 
+                                    <li> Coding
+                                        <ul>
+                                            <li>
+                                                Java
+                                            </li>
+                                            <li>
+                                                JavaScript
+                                            </li>
+                                            <li>
+                                                Python
+                                            </li>
+                                            <li>
+                                                Django
+                                            </li>
+                                            <li>
+                                                React
+                                            </li>
+                                            <li>
+                                                HTML
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li> Audio/Visual Production
+                                        <ul>
+                                            <li> FL Studio </li>
+                                            <li> Logic Pro </li>
+                                            <li> Final Cut Pro</li>
+                                            <li> Adobe Premier</li>
+                                            <li> Adobe Photoshop</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="tab3" class="tab-content">
+                                <ul>
+                                    <li>Video Games
+                                        <ul>
+                                            <li>Starfield</li>
+                                            <li>Minecraft</li>
+                                            <li>Modern Warefare 2</li>
+                                            <li>Pikmin</li>
+                                        </ul>
+                                    </li>
+                                    <li>Movies
+                                        <ul>
+                                            <li>The Truman Show</li>
+                                            <li>2001: A Space Odyssey</li>
+                                            <li>Star Wars</li>
+                                            <li>Amelie</li>
+                                        </ul>
+                                    </li>
+                               </ul>
+                            </div>
+                            <div id="tab4" class="tab-content">
+                                <ul>
+                                    <li>New England Realty (2018 - 2020)
+                                    </li>
+                                    <li>The Home Depot (2021 - Present)</li>
+                                </ul>
+                            </div>
+
+                            <script>
+                                function toggleTabClass(tabId) {
+                                  document.querySelectorAll('.nav-link').forEach(function(tab) {
+                                    tab.classList.remove('active');
+                                  });
+                                  document.querySelector(`[href="#${tabId}"]`).classList.add('active');
+                                }
+                            </script>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <div class="card" style="width:18rem; margin:20px">
+                          <img src="/images/IMG_0658.jpg" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;">Joshua Collado</h5>
+                            <a class="btn btn-primary btn-sm " href="/josh.html" role="button" style="width:100%;"> Connect </a>
+                          </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card" style="width:18rem; margin: 20px">
+                          <img src="/images/IMG_0574.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;">Michael Matta</h5>
+                            <a class="btn btn-primary btn-sm " href="/michael.html" role="button" style="width:100%;"> Connect </a>
+                          </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card" style="width:18rem; margin: 20px;">
+                          <img src="/images/IMG_0577.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;">Jordan Lubus</h5>
+                            <a class="btn btn-primary btn-sm " href="/jordan.html" role="button" style="width:100%;"> Connect </a>
+                          </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card" style="width:18rem; margin: 20px;">
+                          <img src="/images/IMG_2542.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;">Lillian Rodriguez</h5>
+                            <a class="btn btn-primary btn-sm " href="lily.html" role="button" style="width:100%;"> Connect </a>
+                          </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <footer class="container">
+                            <p class="float-right"><a href="#">Back to top</a></p>
+                            <p style="text-align: center;">&copy; 2024 Been on Moon</p>
+                          </footer>
+                    </td>
+                </tr>
+            </table>
+
+            
+
+            
+        </div>
+    </body>
+</html>
